@@ -7,9 +7,10 @@ body {
     padding: 28px;
     width: 100%;
     max-width: 1660px;
-    height: calc(449/1660*100%);
+    height: calc(450/1660*100%);
     background-image: url(../images/banner-bg.jpg);
     background-repeat: no-repeat;
+    background-position: left top;
 }
 
 .header__container {
@@ -32,7 +33,7 @@ body {
 
 .menu {
     color: #fff;
-    font-size: 15px;
+    font-size: 9px;
 }
 
 .menu__list {
@@ -46,4 +47,18 @@ body {
 .menu__link {
     color: inherit;
     text-decoration: none;
+}
+
+.intro {
+    max-width: 679px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin: 1px auto;
+    font-size: 33px;
+    padding: 125px 0 145px 0;
+}
+
+.slogan {
+    align-self: center;
 }
