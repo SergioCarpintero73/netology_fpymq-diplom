@@ -6,7 +6,11 @@ body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
 }
-  
+
+h2, h3, h4 {
+  text-transform: uppercase;
+}
+
 .header {
   width: 1660px;
   height: 450px;
@@ -79,3 +83,44 @@ body {
   padding-bottom: 30px;
   line-height: 75px;
 }  
+
+.trends {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.trend__title {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.trends__main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.trend__picture {
+  width: 410px;
+  height: 319px;
+  background: rgba(102, 102, 102, 0.6);
+}
+
+.tags-list {
+  display: flex;
+  gap: 19px;
+  list-style: none;
+  text-transform: uppercase;
+  color: #b59f5b;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 0;  
+}
