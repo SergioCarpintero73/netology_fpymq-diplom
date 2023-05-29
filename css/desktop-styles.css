@@ -93,21 +93,29 @@ h4 {
 .trends {
   display: flex;
   flex-direction: column;
+  align-items: center;
   position: relative;
   box-sizing: border-box;
   width: 100%;
 }
 
-.trend__title {
+.trends__title {
   display: flex;
   position: relative;
+  padding-top: 64px;
+}
+
+.trends__title::before {
+  content: "";
+  height: 66px;
+
 }
 
 .trends__main-container {
-  /* width: 1660px; */
   display: flex;
   flex-direction: row;
-  justify-content: start;
+  /* align-items: center; */
+  justify-content: flex-end;
 }
 
 .trend-container {
@@ -117,7 +125,7 @@ h4 {
   margin: 0 4px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: left top;
+  background-position: left top;  
 }
 
 .trend-container:first-child {
@@ -142,11 +150,12 @@ h4 {
   margin-right: 0; 
 }
 
-.trend {
-  
+.trend {  
   border: 3px solid #b59f5b;
   margin: 21px;
   padding: 34px;
+  display: flex;
+  flex-direction: column;
 }
 
 .tags-list {
@@ -167,6 +176,7 @@ h4 {
 }
 
 .posts {
+  height: calc(381px + 397px);
   padding-top: 63px;
   padding-left: 247px;
   display: flex;
@@ -175,31 +185,36 @@ h4 {
 
 .post__container {
   padding-bottom: 60px;
-  background-color: #eff6f1;
   display: flex;
   flex-direction: row;
 }
 
 .post-image {
   width: 381px;
-  height: 294px;
-  padding-right: 30px;
+  height: 294px;  
   background-color: #eff6f1;
 }
 
 .post-preview {
-  
+  padding-left: 30px;  
   width: 367px;
 }
 
 .post-title {
   line-height: 24px;
+  padding-bottom: 36px;
 }
 
 .post-info {
+  
   display: flex;
   flex-direction: row;
-  justify-items: baseline;
+  align-items: center;
+  justify-items: center;
+}
+
+.author {
+  margin: 0;
 }
 
 p {
@@ -225,6 +240,7 @@ p {
 }
 
 time {
+  padding-right: 14px;
   font-size: 12px;
   line-height: 20px;
   font-weight: 400;
@@ -236,7 +252,7 @@ time {
   padding-left: 20px;
   display: flex;
   flex-direction: column;
-  width: 182px;
+  width: 184px;
   line-height: 1.285;
 }
 
