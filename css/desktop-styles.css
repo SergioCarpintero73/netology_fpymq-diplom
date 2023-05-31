@@ -103,16 +103,16 @@ h4 {
   display: block;
   position: relative;
   padding-top: 64px;
-  padding-bottom: 30px;
+  padding-bottom: 14px;
 }
 
 .trends__title::after {
   content: "";
-  width: 66px;
-  height: 8px;
+  width: 67px;
+  height: 3px;
   background-color: #b59f5b;
   position: absolute;
-  left: calc(1660/2);
+  left: 20%;
   bottom: 0;
   margin-left: 33px;
 }
@@ -173,13 +173,17 @@ h4 {
   color: #b59f5b;
   font-weight: 700;
   font-size: 14px;
-  padding: 0;  
+  padding: 0;
+  margin: 0;
 }
 
 .trend-title {
   display: flex;
   flex-direction: column;
   justify-items: last baseline;
+  color: #ffffff;
+  padding-top: 16px;
+  margin: 0;
 }
 
 .posts {
