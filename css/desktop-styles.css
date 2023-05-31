@@ -100,28 +100,35 @@ h4 {
 }
 
 .trends__title {
-  display: flex;
+  display: block;
   position: relative;
   padding-top: 64px;
+  padding-bottom: 30px;
 }
 
-.trends__title::before {
+.trends__title::after {
   content: "";
-  height: 66px;
-
+  width: 66px;
+  height: 8px;
+  background-color: #b59f5b;
+  position: absolute;
+  left: calc(1660/2);
+  bottom: 0;
+  margin-left: 33px;
 }
 
 .trends__main-container {
   display: flex;
   flex-direction: row;
-  /* align-items: center; */
-  justify-content: flex-end;
 }
 
 .trend-container {
   width: 25%;
   height: 319px;
   box-sizing: border-box;
+  display: inherit;
+  justify-items: end;
+  align-items: end;
   margin: 0 4px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -205,8 +212,7 @@ h4 {
   padding-bottom: 36px;
 }
 
-.post-info {
-  
+.post-info {  
   display: flex;
   flex-direction: row;
   align-items: center;
