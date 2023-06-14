@@ -107,17 +107,18 @@
           </div>
         </div>       
       </div>
+
       <div class="posts">
         <div class="post__container">
           <img class="post-image" src="./images/last-post1.jpg">
           <div class="post-preview">
             <nav class="trend__tags">
               <ul class="tags-list">
-                <li class="trend__tag">Travel</li>
-                <li class="trend__tag">Health</li>
+                <li><h3 class="tag">Travel</h3></li>
+                <li><h3 class="tag">Health</h3></li>
               </ul>                
             </nav>
-            <h3 class="post-title">10 мест, ради которых стоит проснуться на рассвете</h3>
+            <h2 class="post-title">10 мест, ради которых стоит проснуться на рассвете</h2>
             <div class="post-info">
               <time>10 июня 2019</time>
               <h4 class="author">Неизвестный автор</h4>
@@ -125,13 +126,14 @@
             <p>Итак, вы в Питере. Раннее утро. Лед с рек и каналов уже ушел, запущены фонтаны города… Музеи еще закрыты. Что посмотреть?</p>
           </div>
         </div>
+
         <div class="post__container">
           <img class="post-image" src="./images/last-post2.jpg">
           <div class="post-preview">
             <nav class="trend__tags">
               <ul class="tags-list">
-                <li class="trend__tag">health</li>
-                <li class="trend__tag">lifestyle</li>
+                <li><h3 class="tag">Health</h3></li>
+                <li><h3 class="tag">lifestyle</h3></li>
               </ul>                
             </nav>
             <h2 class="post-title">ЙОга для начинающих в домашних условиях</h2>
@@ -142,12 +144,13 @@
             <p>Расскажем, какие упражнения выбрать и как сделать коврик для занятий йогой из того, что можно найти в шкафу.</p>
           </div>
         </div>
+
         <div class="post__container">
           <img class="post-image" src="./images/last-post3.jpg">
           <div class="post-preview">
             <nav class="trend__tags">
               <ul class="tags-list">
-                <li class="trend__tag">music</li>
+                <li><h3 class="tag">music</h3></li>
               </ul>                
             </nav>
             <h2 class="post-title">Лучшие музыкальные фестивали этого лета</h2>
@@ -159,13 +162,14 @@
             <p>Мы составили список лучших летних фестивалей по всему миру.</p>
           </div>
         </div>
+
         <div class="post__container">
           <img class="post-image" src="./images/last-post4.jpg">
           <div class="post-preview">
             <nav class="trend__tags">
               <ul class="tags-list">
-                <li class="trend__tag">LYFESTYLE</li>
-                <li class="trend__tag">FOOD</li>
+                <li><h3 class="tag">LYFESTYLE</h3></li>
+                <li><h3 class="tag">FOOD</h3></li>
               </ul>                
             </nav>
             <h2 class="post-title">Наукоёмкий подход к кулинарии</h2>
@@ -176,14 +180,15 @@
             <p>Узнаем основы проектирования новых пищевых и около-пищевых опытов, вскроем физику, химию и микробиологию еды.</p>
           </div>
         </div>
+        
         <div class="post__container">
           <img class="post-image" src="./images/last-post5.jpg">
           <div class="post-preview">
             <nav class="trend__tags">
               <ul class="tags-list">
-                <li class="trend__tag">Lifestyle</li>
-                <li class="trend__tag">INTERIOR</li>
-                <li class="trend__tag">art</li>
+                <li><h3 class="tag">Lifestyle</h3></li>
+                <li><h3 class="tag">INTERIOR</h3></li>
+                <li><h3 class="tag">art</h3></li>
               </ul>                
             </nav>
             <h2 class="post-title">делаем модные принты на подушках для интерьера </h2>
@@ -246,7 +251,15 @@
       <div class="search__container">
         <form class="search-group">
           <input class="field" name="query" placeholder="Найти..." required>
-          <button class="button">Найти</button>
+          <button class="find-button"></button>
+        </form>
+      </div>
+      
+      <div class="mailing">
+        <h3>Рассылки</h3>
+        <form>
+          <input type="email" placeholder="Ваш email-адрес">
+          <button><h3>Подписаться</h3></button>
         </form>
       </div>
 
@@ -263,12 +276,46 @@
           <a class="tag__item" href="#0">HEALTH</a>
         </div>
       </div>
+
+      <div class="themes-list">
+        <h3>Темы</h3>
+        <nav class="themes">
+          <ul>
+            <li><a href="#0">Красота</a></li>
+            <li><a href="#0">Здоровье</a></li>
+            <li><a href="#0">Образ жизни</a></li>
+            <li><a href="#0">Музыка</a></li>
+            <li><a href="#0">Спорт</a></li>
+            <li><a href="#0">Йога</a></li>
+          </ul>
+        </nav>
+      </div>
     </aside>
-        
+
+    <aside class="shop">
+      <h3>Наша изделия</h3>
+      <div class="shop__container">
+        <div class="shop-item">
+          <img class="shop-item-image" src="./images/shop-item-desk1.jpg" alt="Розовая подушка">
+          <div class="shop-item-description">
+            <h2 class="shop-item-name">подушки на диван</h2>
+            <p>Набор из двух подушек с модными принтами. Видео о создании <a href="#0">здесь</a>.</p>
+            <div class="price-item">
+              <div class="price">800 р</div>
+              <button><h3 class="button-title">В магазин</h3></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </aside>    
     
-
     <footer>
-
+      <div class="socials-pages">
+        <address>dribbble logo</address>
+        <address>pinterest logo</address>
+        <address>tumblr logo</address>
+      </div>
+      <p class="copirating">Copyright © 2009–2019 City Blog LLC.</p>
     </footer>
   </body>
 </html>

@@ -26,6 +26,20 @@ h4 {
   font-size: 12px;
 }
 
+p {
+  font-size: 15px;
+  line-height: 22px;
+  color: #0f0d0e;
+  margin: 0;
+  font-weight: 400;
+}
+
+button {
+  background-color: #b59f5b;
+  color: #ffffff;
+  padding: 18px 27px;
+}
+
 .header {
   height: 450px;
   box-sizing: border-box;
@@ -232,20 +246,12 @@ h4 {
   text-transform: inherit;
 }
 
-p {
-  font-size: 15px;
-  line-height: 22px;
-  color: #0f0d0e;
-  margin: 0;
-}
-
 .sidebar {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: flex-start;
   padding-right: 245px;
-  /* width: 271px; */
 }
 
 .last-posts__title {
