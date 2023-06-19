@@ -18,7 +18,7 @@ h1 {
   line-height: 75px;
   margin: 0;
   text-align: center;
-  position: relative;  
+  /* position: relative;   */
   color: white;
 }
 
@@ -72,7 +72,7 @@ ul {
   margin-bottom: 5px;
 }
 
-.header {
+header {
   height: 450px;
   box-sizing: border-box;
   background-image: linear-gradient(to right, rgba(102, 102, 102, 0.6), rgba(102, 102, 102, 0.6)), 
@@ -130,7 +130,6 @@ ul {
   padding-top: 100px;
 }
 
- 
 
 .trends {
   display: flex;
